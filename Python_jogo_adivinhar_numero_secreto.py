@@ -1,7 +1,7 @@
 import random
 print('script iniciado')
 
-numero_secreto = round(random.random() * 100)
+numero_secreto = round(random.randrange(1,101))
 total_de_tentativas = 5
 tentativa = 0
 
