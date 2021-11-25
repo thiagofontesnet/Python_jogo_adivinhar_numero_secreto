@@ -6,8 +6,7 @@ total_de_tentativas = 5
 tentativa = 0
 
 for rodada in range(1, total_de_tentativas + 1):
-    print('**************************************')
-    print('você esta na tentativa:{} de {}'.format(rodada, total_de_tentativas))
+    print('**********você esta na tentativa:{} de {}**********'.format(rodada, total_de_tentativas))
 
     chute_input = input('chute um número para tentar acertar: ')
     chute = int(chute_input)
